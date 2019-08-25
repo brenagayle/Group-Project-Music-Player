@@ -1,0 +1,12 @@
+<div class="d-flex justify-content-center">
+<div class="form-group login">
+<form (submit)="loginUser($event)">
+    <input type="text" placeholder="Username" id="username" class="form-control"><br>
+    <input type="password" placeholder="Password" id="password" class="form-control"><br>
+    <input type="submit" value="Submit">
+</form>
+<br>
+<p>Need an account? <a [routerLink]="['/signup']">Sign Up</a> today</p>
+</div>
+</div>
+
